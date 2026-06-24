@@ -61,7 +61,7 @@ if question:
                     })
 
                 response = client.models.generate_content(
-                    model="models/gemini-1.5-flash-latest",
+                    model="gemini-2.0-flash-lite"
                     contents=conversation
                 )
                 answer = response.text
